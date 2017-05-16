@@ -18,15 +18,15 @@ html {
 	src: url(../fonts/starjout/Starjout.ttf);
 }
 @font-face {
-	font-family: Stjedise;
-	src: url(assets/fonts/stjedise/STJEDISE.ttf) format('truetype');
+	font-family: stjedise;
+	src: url(.../fonts/stjedise/stjedise.ttf) format('truetype');
 }
 .wrapper {
 	max-width: 960px;
 	margin: 0 auto;
 }
 h1 {
-	font-family: Stjedise;
+	font-family: stjedise;
 	font-size: 610%;
 	color: #fff;
 	float: left;
@@ -104,7 +104,7 @@ main {
 
 @media screen and (max-width: 979px) and (min-width: 768px) {
 	h1 {
-		font-family: Stjedise;
+		font-family: stjedise;
 		font-size: 480%;
 		color: #fff;
 		float: left;
@@ -113,7 +113,7 @@ main {
 }
 @media screen and (max-width: 767px) {
 	h1 {
-		font-family: Stjedise;
+		font-family: stjedise;
 		font-size: 380%;
 		color: #fff;
 		float: left;
