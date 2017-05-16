@@ -19,7 +19,7 @@ html {
 }
 @font-face {
 	font-family: stjedise;
-	src: url(.../fonts/stjedise/stjedise.ttf) format('truetype');
+	src: url(../fonts/stjedise/stjedise.ttf);
 }
 .wrapper {
 	max-width: 960px;
