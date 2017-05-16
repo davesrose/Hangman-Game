@@ -161,7 +161,7 @@ function start() {
 					};
 					if (counter === 6) {
 						document.getElementById('hangmanImage').src = 'assets/images/hangman2.jpg';
-						var snd = new Audio("assets/audio/lukeLearntheways.wav"); // buffers automatically when created
+						var snd = new Audio("assets/audio/lukeLearntheways.mp3"); // buffers automatically when created
 						snd.play();
 					};
 					if (counter === 5) {
@@ -176,17 +176,17 @@ function start() {
 					};
 					if (counter === 3) {
 						document.getElementById('hangmanImage').src = 'assets/images/hangman5.jpg';
-						var snd = new Audio("assets/audio/yodaDoordonot.wav"); // buffers automatically when created
+						var snd = new Audio("assets/audio/yodaDoordonot.mp3"); // buffers automatically when created
 						snd.play();
 					};
 					if (counter === 2) {
 						document.getElementById('hangmanImage').src = 'assets/images/hangman6.jpg';
-						var snd = new Audio("assets/audio/hansoloBadfeeling.wav"); // buffers automatically when created
+						var snd = new Audio("assets/audio/hansoloBadfeeling.mp3"); // buffers automatically when created
 						snd.play();
 					};
 					if (counter === 1) {
 						document.getElementById('hangmanImage').src = 'assets/images/hangman7.jpg';
-						var snd = new Audio("assets/audio/c3poYourfault.wav"); // buffers automatically when created
+						var snd = new Audio("assets/audio/c3poYourfault.mp3"); // buffers automatically when created
 						snd.play();
 					};
 					if (counter === 0) {
