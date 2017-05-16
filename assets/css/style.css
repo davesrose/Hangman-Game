@@ -1,0 +1,122 @@
+html {
+    background: url('../images/starfieldBackground1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@font-face {
+	font-family: Starjedi;
+	src: url(../fonts/starjedi/Starjedi.ttf);
+}
+@font-face {
+	font-family: Starjhol;
+	src: url(../fonts/starjedi/Starjhol.ttf);
+}
+@font-face {
+	font-family: Starjout;
+	src: url(../fonts/starjout/Starjout.ttf);
+}
+@font-face {
+	font-family: Stjedise;
+	src: url(../fonts/stjedise/STJEDISE.ttf);
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+h1 {
+	font-family: Stjedise;
+	font-size: 610%;
+	color: #fff;
+	float: left;
+	margin: 2% 8%;
+}
+h2 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	color: yellow;
+	text-align: center;
+}
+.rebelImage {
+	width: 15%;
+	height: auto;
+	float: left;
+}
+.empireImage {
+	width: 15%;
+	height: auto;
+	float: right;
+}
+.head {
+	margin-top: 10px;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+main {
+	width: 80%;
+	margin: 20px 10%;
+	border: dotted 5px yellow;
+}
+.pressAnyKey {
+	width: 60%;
+	height: auto;
+	margin-left: 20%;
+}
+.leftContent {
+	border-right: dotted 5px yellow;
+
+}
+.imageChange {
+/*	background: url('../images/starwars2.gif') no-repeat;
+	background-size: cover;*/
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 8%;
+}
+.imageChange img {
+	width: 100%;
+	height: auto;
+}
+.rightContent {
+
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1;	
+}
+.flexbox > :nth-child(1) { order: 1; }
+.flexbox > :nth-child(2) { order: 3; }
+.flexbox > :nth-child(3) { order: 2; }
+.flexbox > :nth-child(4) { order: 4; }
+#hangmanImage {
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-bottom: 8%;
+}
+
+@media screen and (max-width: 979px) and (min-width: 768px) {
+	h1 {
+		font-family: Stjedise;
+		font-size: 480%;
+		color: #fff;
+		float: left;
+		margin: 2% 8%;
+	}
+}
+@media screen and (max-width: 767px) {
+	h1 {
+		font-family: Stjedise;
+		font-size: 380%;
+		color: #fff;
+		float: left;
+		margin: 2% 8%;
+	}
+}
